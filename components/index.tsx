@@ -1,3 +1,5 @@
+'use client'
+
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react-hooks/set-state-in-effect */
 import React, { useState, useEffect } from 'react';
@@ -48,7 +50,7 @@ export default function FinancialAdvisorCV() {
                 <div className="absolute -inset-1 bg-linear-to-r from-blue-600 to-cyan-600 rounded-2xl blur-lg opacity-50 group-hover:opacity-75 transition duration-500"></div>
                 <div className="relative">
                   <img 
-                    src="https://raw.githubusercontent.com/user-attachments/assets/placeholder" 
+                    src="./trung.jpg" 
                     alt="Mr. Trung"
                     className="w-full h-auto rounded-2xl shadow-2xl border-4 border-cyan-500/30"
                     style={{
